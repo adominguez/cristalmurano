@@ -6,7 +6,7 @@ import TransformText from "./transform-text.js";
 
 const Header = ({ siteTitle, logoPositionValue, useHeaderWhite, useLogo, siteLogo }) => {
   return (
-    <header className={`${useHeaderWhite ? 'bg-white' : 'bg-primary-500'} principal-container`}>
+    <header className={`${useHeaderWhite ? 'bg-white' : 'bg-backgroundSite'} principal-container`}>
       <div className={`md:justify-${logoPosition[logoPositionValue]} centered-flex p-4 w-templateValue pb-4`}>
           <Link
             to="/"
